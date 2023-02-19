@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation in sequential]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test on fire fox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="getCourse" value="Automation using Python"/>
+    <classes>
+      <class name="assignment12.TaskInTestNG">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- assignment12.TaskInTestNG -->
+    </classes>
+  </test> <!-- Test on fire fox(failed) -->
+  <test thread-count="5" name="Test on edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="getCourse" value="Automation using JavaScript"/>
+    <classes>
+      <class name="assignment12.TaskInTestNG">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- assignment12.TaskInTestNG -->
+    </classes>
+  </test> <!-- Test on edge(failed) -->
+</suite> <!-- Failed suite [Automation in sequential] -->

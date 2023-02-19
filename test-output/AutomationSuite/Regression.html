@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 22 22:34:43 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9751 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='jan_15_selenium_grid.AssertDemo.test4()'><b>test4</b><br>Test class: jan_15_selenium_grid.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.AssertDemo@16d04d3d</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.AssertDemo.test5()'><b>test5</b><br>Test class: jan_15_selenium_grid.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.AssertDemo@16d04d3d</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG.verifyTitle()'><b>verifyTitle</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG@1189dd52</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG2.makePayment()'><b>makePayment</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG2@36bc55de</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.AssertDemo.test2()'><b>test2</b><br>Test class: jan_15_selenium_grid.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.AssertDemo@16d04d3d</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG2.login()'><b>login</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG2@36bc55de</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG.closeBrowser()'><b>closeBrowser</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG@1189dd52</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.verifyUrl()'><b>verifyUrl</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG.test3()'><b>test3</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG<br>Test method: My third test</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG@2a798d51</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG.verifyUrl()'><b>verifyUrl</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG@1189dd52</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.AssertDemo.test3()'><b>test3</b><br>Test class: jan_15_selenium_grid.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.AssertDemo@16d04d3d</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.logout()'><b>logout</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>2</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.verifyFooterCount()'><b>verifyFooterCount</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.closeBrowser()'><b>closeBrowser</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG.test1()'><b>test1</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG<br>Test method: My first test</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG@2a798d51</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG2.logout()'><b>logout</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG2@36bc55de</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.verifyTitle()'><b>verifyTitle</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG2.createAccount()'><b>createAccount</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG2</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG2@36bc55de</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.MyFirstTestNG.test2()'><b>test2</b><br>Test class: jan_15_selenium_grid.MyFirstTestNG<br>Test method: My second test</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.MyFirstTestNG@2a798d51</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG.startBrowser()'><b>startBrowser</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG</td>
+<td></td>
+<td>2</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG@1189dd52</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.startBrowser()'><b>startBrowser</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>1</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.AssertDemo.test1()'><b>test1</b><br>Test class: jan_15_selenium_grid.AssertDemo</td>
+<td></td>
+<td>0</td>
+<td>jan_15_selenium_grid.AssertDemo@16d04d3d</td></tr>
+<tr>
+<td title='jan_15_selenium_grid.SeleniumWithTestNG2.login()'><b>login</b><br>Test class: jan_15_selenium_grid.SeleniumWithTestNG2</td>
+<td></td>
+<td>3</td>
+<td>jan_15_selenium_grid.SeleniumWithTestNG2@564fabc8</td></tr>
+</table><p>
+</body>
+</html>

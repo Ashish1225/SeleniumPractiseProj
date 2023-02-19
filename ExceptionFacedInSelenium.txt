@@ -1,0 +1,5 @@
+1- SessionNotCreatedException - when chrome failed to start
+2- Invalid argument exception - when no http and https is provided
+3- IllegalArgumentException: Keys to send should be a not null CharSequence
+4- org.openqa.selenium.ElementNotInteractableException: element not interactable
+5-InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='email1]
