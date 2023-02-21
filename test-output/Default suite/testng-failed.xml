@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment13.Task3_CreateUserTestUsingDataProviderWithExcel">
+      <class name="practise.LoginTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createUserTest" invocation-numbers="0"/>
-          <include name="clickOnSignUpLinkAndVerifySignUpLabelTest"/>
+          <include name="loginTestFuncion" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- assignment13.Task3_CreateUserTestUsingDataProviderWithExcel -->
+      </class> <!-- practise.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
